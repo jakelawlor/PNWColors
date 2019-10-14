@@ -126,7 +126,7 @@ ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
   scale_fill_gradientn(colours = pal) +
   theme_classic()
 ```
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Hex.Shuksan.png"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Hex.Shuksan2.png"></center>
 
 ```r
 library(tidyverse)
