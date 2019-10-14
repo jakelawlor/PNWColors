@@ -21,7 +21,3 @@ a scale of values. If omitted, function assumes continuous if n > length of pale
 \description{
 PNW Palette Generator
 }
-\examples{
-pnw_palette("Winter",n=100,type="continuous")
-pnw_palette("Bay",3)
-}
