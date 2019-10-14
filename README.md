@@ -8,7 +8,7 @@ and immortalized it in an R color palette package. Now I (and you!) can have the
 Pacific Northwest live on in our presentation figures forever. 
 
 All photos were taken by me in places that I love. The [Pantone Studio iPhone app](https://apps.apple.com/us/app/pantone-studio/id329515634) 
-helped me extract  colors, and
+helped me extract  colors, and 
 [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
 helped me  ensure that all palettes are color-blind safe to use for pretty and inclusive data viz. 
 
@@ -32,39 +32,47 @@ names(pnw_palettes)
 ## Palettes
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Starfish.jpg">
-
-Intertidal Zone, San Juan Islands, Washington
-
-
-
-
+<ul>
+  <li>Low Tide -- San Juan Islands, Washington </li>
+  
+    
+    
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan.jpg"></center>
 
+<li>Mount Shuksan from Mount Baker Ski Resort -- North Cascades, Washington</li>
 
-Mount Shuksan from Mount Baker Ski Resort, North Cascades, Washington
+
 
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Bay.jpg"></center>
 
 
-Sunset kayak in Bellingham Bay, Washington
+<li>View from a sunset kayak -- Bellingham Bay, Washington</li>
+
+
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Winter.jpg"></center>
 
-Washington Park in snow, Anacortes, Washington
+<li>Washington Park snowday -- Anacortes, Washington</li>
+
+
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Lake.jpg"></center>
 
-Whistle Lake (best place in the world), Anacortes, Washington
+<li>Whistle Lake, the best place in the world -- Anacortes, Washington</li>
+
+
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sunset.jpg"></center>
 
-Washington Park, Anacortes, Washington
+<li>Washington Park sunset -- Anacortes, Washington </li>
+
+
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan2.jpg"></center>
 
-Mount Suksan, golden hour. North Cascades, Washington
-
+<li>Mount Suksan, golden hour -- North Cascades, Washington</li>
+</ul>
 
 ## Building Palettes 
 
