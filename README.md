@@ -1,5 +1,6 @@
 # PNW Color Palette Package
 
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/sunset.jpg" width="300" ></center>
 
 I am soon moving away from the most beautiful place I will ever live, 
 so I did what any nostalgic nature kid / data science nerd would do, 
