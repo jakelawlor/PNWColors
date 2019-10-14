@@ -16,7 +16,7 @@ of the region, and checked for color blind safety using \href{https://gka.github
 If omitted, all colors are used.}
 
 \item{type}{Usage of palette as "continuous" or "discrete". Continuous usage interpolates between colors to create
-a scale of values. Operates as continuous if omitted.}
+a scale of values. If omitted, function assumes continuous if n > length of palette, and discrete if n < length of palette.}
 }
 \description{
 PNW Palette Generator
