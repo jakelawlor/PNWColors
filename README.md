@@ -48,7 +48,7 @@ names(pnw_palettes)
 
 ## Building Palettes 
 
-Use the pnw_palette() function to view palettes. 
+Use the pnw_palette() function to build and view palettes. Inputs are 'name', 'n', and 'type' (continuous or discrete). Name is required. If n is blank, function will assume n is equal to the number of colors in the palette (5-8), but if n > palette length, will automatically interpolate colors between. If type is missing, function will assume discrete if n < palette length, and continuous if n > palette length. Type is not usually necessary to input unless user wanted an interpoated palette with fewer colors than palette total. 
 
 ```r
 pnw_palette(name="Starfish",n=7,type="discrete")
