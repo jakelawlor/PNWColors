@@ -12,8 +12,13 @@
 
 # 1.Create the color palettes
 #::::::::::::::::::::::::::::::::::::::::::::::
+#' Complete list of palettes
+#'
+#' Use \code{\link{pnw_palette}} to construct palettes of desired length.
+#'
+#' @export
 pnw_palettes <- list(
-  Stars = rbind(c('#24492e', '#015b58', '#2c6184', '#59629b', '#89689d', '#ba7999', '#e69b99'),c(7,4,5,3,1,6,2)),
+  Starfish = rbind(c('#24492e', '#015b58', '#2c6184', '#59629b', '#89689d', '#ba7999', '#e69b99'),c(7,4,5,3,1,6,2)),
   Baker = rbind(c('#33271e', '#74677e', '#ac8eab', '#d7b1c5', '#ebbdc8', '#f2cec7', '#f8e3d1', '#fefbe9'),c(2,7,4,6,1,8,5,3)),
   Bay = rbind(c('#00496f', '#0f85a0', '#edd746', '#ed8b00', '#dd4124'),c(4,1,2,5,3)),
   Winter = rbind(c('#2d2926', '#33454e', '#537380', '#81a9ad', '#ececec'),c(1,4,5,2,3)),
@@ -24,6 +29,24 @@ pnw_palettes <- list(
 
 # 2. Palette builder function
 #::::::::::::::::::::::::::::::::::::::::::::::
+
+#' PNW Palette Generator
+#'
+#' @param name Name of the color palette. Options are \code{Starfish}, \code{Baker}, \code{Bay},
+#' \code{Winter}, \code{Lake}, \code{Sunset}, \code{Baker2}
+#' @param n Number of colors in the palette. Palletes include 5-8 colors, which can be used discretely,
+#' or if more are desired, used as a gradient. All color palettes are inspired from author's nature photography
+#' of the region, and checked for color blind safety using \href{https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1}{Chroma.js Color Palette Helper}.
+#' If omitted, all colors are used.
+#' @param type Usage of palette as "continuous" or "discrete". Continuous usage interpolates between colors to create
+#' a scale of values. Operates as continuous if omitted.
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' pnw_palette("Winter",n=100,type="continuous")
+#' pnw_palette("Bay",3)
 pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 
   if (missing(type)) {
@@ -68,3 +91,4 @@ print.palette <- function(x, ...) {
 
   text(median(1:n), 1, labels = paste0(attr(x,"name"),", n=",n), cex = 3, family = "sans")
 }
+
