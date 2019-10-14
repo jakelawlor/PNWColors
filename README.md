@@ -1,6 +1,6 @@
 # PNW Color Palette Package
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/sunset.jpg" width="300" ></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/sunset.jpg" width="300" ></center>
 
 I am soon moving away from the most beautiful place I will ever live, 
 so I did what any nostalgic nature kid / data science nerd would do, 
@@ -8,7 +8,7 @@ and immortalized it in an R color palette package. Now I (and you!) can have the
 Pacific Northwest live on in our presentation figures forever. 
 
 All photos were taken by me in places that I love. The [Pantone Studio iPhone app](https://apps.apple.com/us/app/pantone-studio/id329515634) 
-helped me extract palette colors, and
+helped me extract  colors, and
 [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
 helped me  ensure that all palettes are color-blind safe to use for pretty and inclusive data viz. 
 
@@ -16,7 +16,7 @@ helped me  ensure that all palettes are color-blind safe to use for pretty and i
 ## Install Package
 ```r
 install.packages("devtools") \
-devtools::install_github("jakelawlor/PNWColors")
+devtools::install_github("jakelawlor/PNWColors") \
 ```
 
 ## Usage
@@ -24,7 +24,18 @@ devtools::install_github("jakelawlor/PNWColors")
 
 ```r
 library(PNWColors)
+
+names(pnw_palettes)
+[1] "Starfish" "Baker"    "Bay"      "Winter"   "Lake"     "Sunset"   "Baker2"  
 ```
+
+## Palettes
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.baker.jpg"></center>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Bay.jpg"></center>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Starfish.jpg"></center>
 
 
 
