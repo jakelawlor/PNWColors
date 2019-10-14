@@ -31,19 +31,39 @@ names(pnw_palettes)
 
 ## Palettes
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Starfish.jpg"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Starfish.jpg">
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan.jpg"></center>
+Intertidal Zone, San Juan Islands, Washington
+
+
+
+
+<<center>><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan.jpg"></center>
+
+
+Mount Shuksan from Mount Baker Ski Resort, North Cascades, Washington
+
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Bay.jpg"></center>
 
+
+Sunset kayak in Bellingham Bay, Washington
+
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Winter.jpg"></center>
+
+Washington Park in snow, Anacortes, Washington
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Lake.jpg"></center>
 
+Whistle Lake (best place in the world), Anacortes, Washington
+
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sunset.jpg"></center>
 
+Washington Park, Anacortes, Washington
+
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan2.jpg"></center>
+
+Mount Suksan, golden hour. North Cascades, Washington
 
 
 ## Building Palettes 
