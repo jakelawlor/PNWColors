@@ -1,14 +1,11 @@
 # PNW Color Package
 #
 # This is a collection of color palettes for Rstudio
-# inspired by colors of nature in and around Washington State, USA
+# inspired by colors of nature in and around Washington State, USA.
 #
 # We currently have 7 palettes available, with more on the way.
-# Some useful keyboard shortcuts for package authoring:
 #
-#   Install Package:           'Cmd + Shift + B'
-#   Check Package:             'Cmd + Shift + E'
-#   Test Package:              'Cmd + Shift + T'
+
 
 # 1.Create the color palettes
 #::::::::::::::::::::::::::::::::::::::::::::::
@@ -47,6 +44,7 @@ pnw_palettes <- list(
 #' @examples
 #' pnw_palette("Winter",n=100,type="continuous")
 #' pnw_palette("Bay",3)
+#' pnw_palette("Starfish, 50)
 pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 
   pal <- pnw_palettes[[name]]
