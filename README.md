@@ -38,7 +38,7 @@ Intertidal Zone, San Juan Islands, Washington
 
 
 
-<<center>><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan.jpg"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan.jpg"></center>
 
 
 Mount Shuksan from Mount Baker Ski Resort, North Cascades, Washington
