@@ -44,7 +44,7 @@ names(pnw_palettes)
 
 
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Bay.jpg"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Bay2.jpg"></center>
 
 
 <li>View from a sunset kayak -- Bellingham Bay, Washington</li>
