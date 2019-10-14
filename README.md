@@ -26,14 +26,14 @@ devtools::install_github("jakelawlor/PNWColors")
 library(PNWColors)
 
 names(pnw_palettes)
-[1] "Starfish" "Baker"    "Bay"      "Winter"   "Lake"     "Sunset"   "Baker2"  
+[1] "Starfish" "Shuksan"    "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2"  
 ```
 
 ## Palettes
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Starfish.jpg"></center>
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.baker.jpg"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan.jpg"></center>
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Bay.jpg"></center>
 
@@ -43,7 +43,7 @@ names(pnw_palettes)
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sunset.jpg"></center>
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Baker2.jpg"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan2.jpg"></center>
 
 
 ## Building Palettes 
@@ -74,10 +74,10 @@ pnw_palette("Bay",8,type="continuous")
 Palettes can be easily integrated into Base R imaging or ggplot2. 
 
 ```r
-pal <- pnw_palette("Baker",100)
+pal <- pnw_palette("Shuksan",100)
 image(volcano, col = pal)
 ```
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Volcano.Baker.png"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Volcano.Shuksan.png"></center>
 
 
 ```r
@@ -91,14 +91,14 @@ ggplot(diamonds, aes(carat, fill = cut)) +
 
 
 ```r
-pal=pnw_palette("Baker2",100)
+pal=pnw_palette("Shuksan2",100)
 ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
   geom_hex() +
   coord_fixed() +
   scale_fill_gradientn(colours = pal) +
   theme_classic()
 ```
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Hex.Baker2.png"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Hex.Shuksan.png"></center>
 
 ```r
 library(tidyverse)
