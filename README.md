@@ -74,7 +74,7 @@ pnw_palette("Bay",8,type="continuous")
 Palettes can be easily integrated into Base R imaging or ggplot2. 
 
 ```r
-pal <- pnw_palette(name,100)
+pal <- pnw_palette("Baker",100)
 image(volcano, col = pal)
 ```
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Volcano.Baker.png"></center>
