@@ -72,7 +72,13 @@ names(pnw_palettes)
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan2.jpg"></center>
 
 <li>Mount Shuksan, golden hour -- North Cascades, Washington</li>
+
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Cascades.jpg"></center>
+
+<li>Watson Lake Trail End-- North Cascades, Washington</li>
 </ul>
+
 
 ## Building Palettes 
 
