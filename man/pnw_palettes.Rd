@@ -4,7 +4,7 @@
 \name{pnw_palettes}
 \alias{pnw_palettes}
 \title{Complete list of palettes}
-\format{An object of class \code{list} of length 8.}
+\format{An object of class \code{list} of length 10.}
 \usage{
 pnw_palettes
 }
