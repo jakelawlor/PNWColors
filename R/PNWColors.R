@@ -1,4 +1,4 @@
-# PNW Color Package
+# A Pacific Northwest Color Palatte Package
 #
 # This is a collection of color palettes for Rstudio
 # inspired by colors of nature in and around Washington State, USA.
