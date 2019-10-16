@@ -77,6 +77,14 @@ names(pnw_palettes)
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Cascades.jpg"></center>
 
 <li>Watson Lake Trail End-- North Cascades, Washington</li>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Moth.jpg"></center>
+
+<li>Moth-- Vendovi Island, Washington</li>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sailboat.jpg"></center>
+
+<li>Funky Dory Sailboat-- Anacortes, Washington</li>
 </ul>
 
 
