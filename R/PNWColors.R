@@ -21,7 +21,8 @@ pnw_palettes <- list(
   Winter = rbind(c('#2d2926', '#33454e', '#537380', '#81a9ad', '#ececec'),c(1,4,5,2,3)),
   Lake = rbind(c('#362904', '#54450f', '#45681e', '#4a9152', '#64a8a8', '#85b6ce', '#cde5f9', '#eef3ff'),c(4,8,7,2,6,1,3,5)),
   Sunset = rbind(c('#493f57', '#6c5975', '#ab7173', '#ca8977', '#db9d76', '#e6ad7a', '#f9dfa8'),c(3,4,7,5,1,6,2)),
-  Shuksan2 = rbind(c('#5d74a5', '#b0cbe7', '#fef7c7', '#eba07e', '#a8554e'),c(2,4,1,5,3))
+  Shuksan2 = rbind(c('#5d74a5', '#b0cbe7', '#fef7c7', '#eba07e', '#a8554e'),c(2,4,1,5,3)),
+  Cascades = rbind(c("#2d4030","#516823","#dec000","#e2e260","#677e8e","#88a2b9"),c(1,4,2,5,3,6))
 )
 
 # 2. Palette builder function
@@ -30,7 +31,7 @@ pnw_palettes <- list(
 #' PNW Palette Generator
 #'
 #' @param name Name of the color palette. Options are \code{Starfish}, \code{Shuksan}, \code{Bay},
-#' \code{Winter}, \code{Lake}, \code{Sunset}, \code{Shuksan2}
+#' \code{Winter}, \code{Lake}, \code{Sunset}, \code{Shuksan2}, \code{Cascades}
 #' @param n Number of colors in the palette. Palletes include 5-8 colors, which can be used discretely,
 #' or if more are desired, used as a gradient. All color palettes are inspired from author's nature photography
 #' of the region, and checked for color blind safety using \href{https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1}{Chroma.js Color Palette Helper}.
@@ -93,4 +94,11 @@ print.palette <- function(x, ...) {
 
   text(median(1:n), 1, labels = paste0(attr(x,"name"),", n=",n), cex = 3, family = "sans")
 }
+
+
+
+
+
+
+
 
