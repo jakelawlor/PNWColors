@@ -71,7 +71,7 @@ names(pnw_palettes)
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan2.jpg"></center>
 
-<li>Mount Suksan, golden hour -- North Cascades, Washington</li>
+<li>Mount Shuksan, golden hour -- North Cascades, Washington</li>
 </ul>
 
 ## Building Palettes 
