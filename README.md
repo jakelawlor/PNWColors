@@ -76,15 +76,15 @@ names(pnw_palettes)
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Cascades.jpg"></center>
 
-<li>Watson Lake Trail End-- North Cascades, Washington</li>
+<li>Watson Lake Trail End -- North Cascades, Washington</li>
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Moth.jpg"></center>
 
-<li>Moth-- Vendovi Island, Washington</li>
+<li>Moth -- Vendovi Island, Washington</li>
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sailboat.jpg"></center>
 
-<li>Funky Dory Sailboat-- Anacortes, Washington</li>
+<li>Funky Dory Sailboat -- Anacortes, Washington</li>
 </ul>
 
 
@@ -109,6 +109,12 @@ pnw_palette("Winter",100)
 pnw_palette("Bay",8,type="continuous")
 ```
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Bay.8.png"></center>
+
+
+```r
+pnw_palette("Moth",12)
+```
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Moth.12.png"></center>
 
 
 ## Example Plots
