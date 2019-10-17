@@ -16,7 +16,7 @@
 #' @export
 pnw_palettes <- list(
   Starfish = rbind(c('#24492e', '#015b58', '#2c6184', '#59629b', '#89689d', '#ba7999', '#e69b99'),c(7,4,5,3,1,6,2)),
-  Shuksan = rbind(c('#33271e', '#74677e', '#ac8eab', '#d7b1c5', '#ebbdc8', '#f2cec7', '#f8e3d1', '#fefbe9'),c(2,7,4,6,1,8,5,3)),
+  Shuksan = rbind(c('#33271e', '#74677e', '#ac8eab', '#d7b1c5', '#ebbdc8', '#f2cec7', '#f8e3d1', '#fefbe9'),c(7,2,4,1,6,5,3,8)),
   Bay = rbind(c('#00496f', '#0f85a0', '#edd746', '#ed8b00', '#dd4124'),c(4,1,3,5,2)),
   Winter = rbind(c('#2d2926', '#33454e', '#537380', '#81a9ad', '#ececec'),c(1,4,5,2,3)),
   Lake = rbind(c('#362904', '#54450f', '#45681e', '#4a9152', '#64a8a8', '#85b6ce', '#cde5f9', '#eef3ff'),c(4,8,7,2,6,1,3,5)),
