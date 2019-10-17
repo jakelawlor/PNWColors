@@ -168,4 +168,13 @@ countydata %>%
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Washington.Bay.png"></center>
 
 
+```r
+ggplot(data = iris,aes(x=Petal.Length,y=Petal.Width,color=Species))+
+  geom_point(size=2)+
+  scale_color_manual(values=pnw_palette("Shuksan",3))+
+  theme_classic()
+```
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/iris.shuksan.3.png"></center>
+
+
 
