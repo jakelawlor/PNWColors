@@ -32,7 +32,7 @@ pnw_palettes <- list(
 
 #' PNW Palette Generator.
 #'
-#' This function builds palettes based on natural scenes in the Pacific Northwest. Each palette inspired by author's nature photography
+#' This function builds palettes based on natural scenes in the Pacific Northwest. Each palette is inspired by the author's nature photography
 #' of the region, and checked for color blind safety using \href{https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1}{Chroma.js Color Palette Helper}.
 #' View photos for each palette \href{https://github.com/jakelawlor/PNWColors}{On Github}.
 #'
