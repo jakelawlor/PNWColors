@@ -23,7 +23,7 @@ pnw_palettes <- list(
   Sunset = rbind(c('#493f57', '#6c5975', '#ab7173', '#ca8977', '#db9d76', '#e6ad7a', '#f9dfa8'),c(3,4,7,5,1,6,2)),
   Shuksan2 = rbind(c('#5d74a5', '#b0cbe7', '#fef7c7', '#eba07e', '#a8554e'),c(2,4,1,5,3)),
   Cascades = rbind(c("#2d4030","#516823","#dec000","#e2e260","#677e8e","#88a2b9"),c(4,1,5,2,6,3)),
-  Sailboat = rbind(c('#5975b0', '#7dc2e1', '#fce2a0', '#efa17e', '#d18a91'),c(4,1,2,5,3)),
+  Sailboat = rbind(c('#6e7cb9', '#7bbcd5', '#d0e2af', '#f5db99', '#e89c81', '#d2848d'),c(1,4,6,2,5,3)),
   Moth = rbind(c('#4a3a3b', '#984136', '#c26a7a', '#ecc0a1', '#f0f0e4'),c(4,1,2,3,5))
 )
 
