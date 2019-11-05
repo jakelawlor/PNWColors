@@ -44,7 +44,7 @@ names(pnw_palettes)
 
 
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Bay2.jpg"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Bay.jpg"></center>
 
 
 <li>View from a sunset kayak -- Bellingham Bay, Washington</li>
@@ -148,24 +148,6 @@ ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
 ```
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Hex.Shuksan2.png"></center>
 
-```r
-library(tidyverse)
-library(urbnmapr)
-pal <- pnw_palette("Bay", 100,type = "continuous")
-countydata %>%
-  left_join(counties, by = "county_fips") %>%
-  filter(state_name =="Washington") %>%
-  ggplot(mapping = aes(long, lat, group = group, fill = horate)) +
-  geom_polygon(color = "black", size = .25) +
-  scale_fill_gradientn(colours = pal) +
-  coord_map(projection = "albers", lat0 = 39, lat1 = 45) +
-  theme(legend.title = element_text(),
-        legend.key.width = unit(.5, "in")) +
-  labs(fill = "Homeownership rate") +
-  theme(axis.text = element_blank(),axis.ticks = element_blank(),axis.title = element_blank(),    panel.grid = element_blank(),
-        axis.line =element_blank(),panel.background = element_blank())
-```
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Washington.Bay.png"></center>
 
 
 ```r
@@ -188,5 +170,27 @@ ggplot(ToothGrowth, aes(x=dose, y=len, fill=dose)) +
   theme_classic()
 ```
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Sunset.violins.png"></center>
+
+
+ ```r
+library(tidyverse)
+library(urbanmapr)
+pal <- pnw_palette("Winter",100)
+countydata %>%
+  left_join(counties, by = "county_fips") %>%
+  filter(state_name =="Washington") %>%
+  ggplot(mapping=aes(long,lat,group = group, fill = horate)) +
+  geom_polygon(color="black",size=.25) +
+  scale_fill_gradientn(colours = pal) +
+  coord_map(projection="albers",lat0=39,lat1=45) +
+  theme(legend.title = element_text(),
+        legend.key.width = unit(.5,"in")) +
+  labs(fill="Homeownership rate") +
+  theme(axis.text = element_blank(), axis.ticks = element_blank(), 
+        axis.title = element_blank(), panel.grid = element_blank(),
+        axis.line = element_blank(), panel.background = element_blank())
+
+```
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WA.homes.winter.png"></center>
 
 
