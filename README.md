@@ -190,3 +190,25 @@ ggplot(ToothGrowth, aes(x=dose, y=len, fill=dose)) +
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Sunset.violins.png"></center>
 
 
+ ```r
+library(tidyverse)
+library(urbanmapr)
+pal <- pnw_palette("Winter",100)
+countydata %>%
+  left_join(counties, by = "county_fips") %>%
+  filter(state_name =="Washington") %>%
+  ggplot(mapping=aes(long,lat,group = group, fill = horate)) +
+  geom_polygon(color="black",size=.25) +
+  scale_fill_gradientn(colours = pal) +
+  coord_map(projection="albers",lat0=39,lat1=45) +
+  theme(legend.title = element_text(),
+        legend.key.width = unit(.5,"in")) +
+  labs(fill="Homeownership rate") +
+  theme(axis.text = element_blank(), axis.ticks = element_blank(), 
+        axis.title = element_blank(), panel.grid = element_blank(),
+        axis.line = element_blank(), panel.background = element_blank())
+
+```
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WA.homes.winter.png"></center>
+
+
