@@ -26,8 +26,8 @@ devtools::install_github("jakelawlor/PNWColors")
 library(PNWColors)
 
 names(pnw_palettes)
-[1] "Starfish" "Shuksan"    "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2"  
-```
+ [1] "Starfish" "Shuksan"  "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2" "Cascades" "Sailboat" "Moth"    
+ ```
 
 ## Palettes
 
