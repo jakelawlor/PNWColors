@@ -20,7 +20,7 @@ pnw_palettes <- list(
   Bay = rbind(c('#00496f', '#0f85a0', '#edd746', '#ed8b00', '#dd4124'),c(4,1,3,5,2)),
   Winter = rbind(c('#2d2926', '#33454e', '#537380', '#81a9ad', '#ececec'),c(1,4,5,2,3)),
   Lake = rbind(c('#362904', '#54450f', '#45681e', '#4a9152', '#64a8a8', '#85b6ce', '#cde5f9', '#eef3ff'),c(4,8,7,2,6,1,3,5)),
-  Sunset = rbind(c('#493f57', '#6c5975', '#ab7173', '#ca8977', '#db9d76', '#e6ad7a', '#f9dfa8'),c(3,4,7,5,1,6,2)),
+  Sunset = rbind(c('#41476b', '#675478', '#9e6374', '#c67b6f', '#de9b71', '#efbc82', '#fbdfa2'),c(3,5,1,7,4,6,2)),
   Shuksan2 = rbind(c('#5d74a5', '#b0cbe7', '#fef7c7', '#eba07e', '#a8554e'),c(2,4,1,5,3)),
   Cascades = rbind(c("#2d4030","#516823","#dec000","#e2e260","#677e8e","#88a2b9"),c(4,1,5,2,6,3)),
   Sailboat = rbind(c('#6e7cb9', '#7bbcd5', '#d0e2af', '#f5db99', '#e89c81', '#d2848d'),c(1,4,6,2,5,3)),
