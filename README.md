@@ -3,14 +3,14 @@
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/sunset.jpg" width="300" ></center>
 
 I am soon moving away from the most beautiful place I will ever live, 
-so I did what any nostalgic nature kid / data science nerd would do, 
+so I did what any nostalgic nature kid / data science nerd would do 
 and immortalized it in an R color palette package. Now I (and you!) can have the colors of Washington State and the 
 Pacific Northwest live on in our presentation figures forever. 
 
 All photos were taken by me in places that I love. The [Pantone Studio iPhone app](https://apps.apple.com/us/app/pantone-studio/id329515634) 
 helped me extract  colors, and 
 [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
-helped me adjust and ensure that all palettes are color-blind safe for use in attractive and inclusive data viz. 
+helped me adjust values to ensure that all palettes are color-blind safe to be used for attractive and inclusive data viz. Structure of the code was inspired by the [`wesanderson`](https://github.com/karthik/wesanderson) and [`LaCroixColoR`](https://github.com/johannesbjork/LaCroixColoR) packages from GitHub. 
 
 
 ## Install Package
@@ -26,8 +26,8 @@ devtools::install_github("jakelawlor/PNWColors")
 library(PNWColors)
 
 names(pnw_palettes)
-[1] "Starfish" "Shuksan"    "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2"  
-```
+ [1] "Starfish" "Shuksan"  "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2" "Cascades" "Sailboat" "Moth"    
+ ```
 
 ## Palettes
 
@@ -76,7 +76,15 @@ names(pnw_palettes)
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Cascades.jpg"></center>
 
-<li>Watson Lake Trail End-- North Cascades, Washington</li>
+<li>Watson Lake Trail End -- North Cascades, Washington</li>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Moth.jpg"></center>
+
+<li>Moth -- Vendovi Island, Washington</li>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sailboat.jpg"></center>
+
+<li>Funky Dory Sailboat -- Anacortes, Washington</li>
 </ul>
 
 
@@ -101,6 +109,12 @@ pnw_palette("Winter",100)
 pnw_palette("Bay",8,type="continuous")
 ```
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Bay.8.png"></center>
+
+
+```r
+pnw_palette("Moth",12)
+```
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Moth.12.png"></center>
 
 
 ## Example Plots
@@ -152,6 +166,15 @@ countydata %>%
         axis.line =element_blank(),panel.background = element_blank())
 ```
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Washington.Bay.png"></center>
+
+
+```r
+ggplot(data = iris,aes(x=Petal.Length,y=Petal.Width,color=Species))+
+  geom_point(size=2)+
+  scale_color_manual(values=pnw_palette("Shuksan",3))+
+  theme_classic()
+```
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/iris.shuksan.3.png"></center>
 
 
 
