@@ -177,4 +177,16 @@ ggplot(data = iris,aes(x=Petal.Length,y=Petal.Width,color=Species))+
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/iris.shuksan.3.png"></center>
 
 
+ ```r
+pal <- pnw_palette("Sunset",3)
+ToothGrowth$dose <- as.factor(ToothGrowth$dose)
+ggplot(ToothGrowth, aes(x=dose, y=len, fill=dose)) + 
+  geom_violin(trim=FALSE)+
+  geom_boxplot(width=0.1, fill="white")+
+  labs(title="Plot of length  by dose",x="Dose (mg)", y = "Length")+
+  scale_fill_manual(values=pal)+
+  theme_classic()
+```
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Sunset.violins.png"></center>
+
 
