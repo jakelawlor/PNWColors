@@ -2,22 +2,24 @@
 % Please edit documentation in R/PNWColors.R
 \name{pnw_palette}
 \alias{pnw_palette}
-\title{PNW Palette Generator}
+\title{PNW Palette Generator. This function builds palettes based on natural scenes in the Pacific Northwest. Each palette inspired by author's nature photography
+of the region, and checked for color blind safety using \href{https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1}{Chroma.js Color Palette Helper}.
+View photos for each palette \href{https://github.com/jakelawlor/PNWColors}{On Github}.}
 \usage{
 pnw_palette(name, n, type = c("discrete", "continuous"))
 }
 \arguments{
 \item{name}{Name of the color palette. Options are \code{Starfish}, \code{Shuksan}, \code{Bay},
-\code{Winter}, \code{Lake}, \code{Sunset}, \code{Shuksan2}, \code{Cascades}, \code{Sailboat},\code{Moth}}
+\code{Winter}, \code{Lake}, \code{Sunset}, \code{Shuksan2}, \code{Cascades}, \code{Sailboat}, \code{Moth}}
 
 \item{n}{Number of colors in the palette. Palletes include 5-8 colors, which can be used discretely,
-or if more are desired, used as a gradient. All color palettes are inspired from author's nature photography
-of the region, and checked for color blind safety using \href{https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1}{Chroma.js Color Palette Helper}.
-If omitted, all colors are used.}
+or if more are desired, used as a gradient. If omitted, n = length of palette.}
 
 \item{type}{Usage of palette as "continuous" or "discrete". Continuous usage interpolates between colors to create
 a scale of values. If omitted, function assumes continuous if n > length of palette, and discrete if n < length of palette.}
 }
 \description{
-PNW Palette Generator
+PNW Palette Generator. This function builds palettes based on natural scenes in the Pacific Northwest. Each palette inspired by author's nature photography
+of the region, and checked for color blind safety using \href{https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1}{Chroma.js Color Palette Helper}.
+View photos for each palette \href{https://github.com/jakelawlor/PNWColors}{On Github}.
 }
