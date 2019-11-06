@@ -196,7 +196,7 @@ countydata %>%
 ### Contact
 
 Comments? Questions? Suggestions? \
-Reach me at [lawlorj@wwu.edu](mailto:lawlorj@wwu.edu) or 
+Reach me at <lawlorj@wwu.edu> or 
 [@Jake_Lawlor1](https://twitter.com/Jake_Lawlor1) 
 
 ###### This work was supported by NSF grant #1538626
