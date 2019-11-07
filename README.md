@@ -194,9 +194,8 @@ countydata %>%
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WA.homes.winter.png"></center>
 
 ### Contact
-
-Comments? Questions? Suggestions? \
 Used the palettes in your paper and care to share? (please do!) \
+Love the palettes and want to [share on twitter?](https://twitter.com/Jake_Lawlor1/status/1192175651358330880)  \
 Reach me at <lawlorj@wwu.edu> or 
 [@Jake_Lawlor1](https://twitter.com/Jake_Lawlor1) 
 
