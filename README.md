@@ -196,6 +196,7 @@ countydata %>%
 ### Contact
 
 Comments? Questions? Suggestions? \
+Used the palettes in your paper and care to share? (please do!) \
 Reach me at <lawlorj@wwu.edu> or 
 [@Jake_Lawlor1](https://twitter.com/Jake_Lawlor1) 
 
