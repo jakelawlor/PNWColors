@@ -10,7 +10,7 @@ Pacific Northwest live on in our presentation figures forever.
 All photos were taken by me in places that I love. The [Pantone Studio iPhone app](https://apps.apple.com/us/app/pantone-studio/id329515634) 
 helped me extract  colors, and 
 [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
-helped me adjust values to ensure that all palettes are color-blind safe to be used for attractive and inclusive data viz. Structure of the code was inspired by the [`wesanderson`](https://github.com/karthik/wesanderson) and [`LaCroixColoR`](https://github.com/johannesbjork/LaCroixColoR) packages from GitHub. 
+helped me adjust values to ensure that all palettes are color-blind safe to be used for attractive and inclusive data viz. Structure of the code was inspired by the [`wesanderson`](https://github.com/karthik/wesanderson) and [`LaCroixColoR`](https://github.com/johannesbjork/LaCroixColoR) packages from GitHub. [See more on twitter!](https://twitter.com/Jake_Lawlor1/status/1192175651358330880)
 
 
 ## Install Package
