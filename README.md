@@ -145,8 +145,14 @@ ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
   coord_fixed() +
   scale_fill_gradientn(colours = pal) +
   theme_classic()
+  
+  # Or, to switch the order, use rev(), see below
+  scale_fill_gradient,(colours = rev(pal))
 ```
+
+
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Hex.Shuksan2.png"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Hex.Shuksan2.Rev.png"></center>
 
 
 
