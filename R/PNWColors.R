@@ -71,7 +71,7 @@ pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 
 
   if (type == "discrete" && n > length(pal[1,])) {
-    stop("Number of requested colors greater than what discrete palette can offer. Use type="continuous" instead.")
+    stop("Number of requested colors greater than what palette can offer")
   }
 
 
