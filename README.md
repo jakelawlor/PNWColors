@@ -26,7 +26,8 @@ devtools::install_github("jakelawlor/PNWColors")
 library(PNWColors)
 
 names(pnw_palettes)
- [1] "Starfish" "Shuksan"  "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2" "Cascades" "Sailboat" "Moth"    
+ [1] "Starfish" "Shuksan"  "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2" 
+ [8] "Cascades" "Sailboat" "Moth" "Spring"   "Mushroom" "Sunset2"  "Anemone"    
  ```
 
 ## Palettes
@@ -85,6 +86,24 @@ names(pnw_palettes)
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sailboat.jpg"></center>
 
 <li>Funky Dory Sailboat -- Anacortes, Washington</li>
+
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sunset2.jpg"></center>
+
+<li>Oyster Dome Sunset -- Chuckanut, Washington</li>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Spring.jpg"></center>
+
+<li>Cherry Blossoms -- Anacortes, Washington</li>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Anemone.jpg"></center>
+
+<li>Anchor Cove -- Anacortes, Washington</li>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Mushroom.jpg"></center>
+
+<li>Mushroom Hunting -- Orcas Island, Washington</li>
+
 </ul>
 
 
@@ -159,14 +178,14 @@ ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
 ```r
 ggplot(data = iris,aes(x=Petal.Length,y=Petal.Width,color=Species))+
   geom_point(size=2)+
-  scale_color_manual(values=pnw_palette("Shuksan",3))+
+  scale_color_manual(values=pnw_palette("Spring",3))+
   theme_classic()
 ```
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/iris.shuksan.3.png"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Spring.Iris.png"></center>
 
 
  ```r
-pal <- pnw_palette("Sunset",3)
+pal <- pnw_palette("Anemone",3)
 ToothGrowth$dose <- as.factor(ToothGrowth$dose)
 ggplot(ToothGrowth, aes(x=dose, y=len, fill=dose)) + 
   geom_violin(trim=FALSE)+
@@ -175,7 +194,7 @@ ggplot(ToothGrowth, aes(x=dose, y=len, fill=dose)) +
   scale_fill_manual(values=pal)+
   theme_classic()
 ```
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Sunset.violins.png"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Anemone.violins.png"></center>
 
 
  ```r
