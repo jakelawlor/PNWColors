@@ -85,6 +85,24 @@ names(pnw_palettes)
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sailboat.jpg"></center>
 
 <li>Funky Dory Sailboat -- Anacortes, Washington</li>
+
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sunset2.jpg"></center>
+
+<li>Oyster Dome Sunset -- Chuckanut, Washington</li>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Spring.jpg"></center>
+
+<li>Cherry Blossoms -- Anacortes, Washington</li>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Anemone.jpg"></center>
+
+<li>Anchor Cove -- Anacortes, Washington</li>
+
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Mushroom.jpg"></center>
+
+<li>Mushroom Hunting -- Orcas Island, Washington</li>
+
 </ul>
 
 
