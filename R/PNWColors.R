@@ -30,7 +30,7 @@ pnw_palettes <- list(
   Moth = rbind(c('#4a3a3b', '#984136', '#c26a7a', '#ecc0a1', '#f0f0e4'),c(4,1,2,3,5)),
   Spring = rbind(c('#d8aedd', '#bf9bdd', '#cb74ad', '#e69e9c', '#ffc3a3', '#fbe4c6'),c(1,5,2,4,3,6)),
   Mushroom = rbind(c('#4f412b', '#865a3c', '#ba783e', '#e69c4c', '#fbcc74', '#fffbda'),c(6,1,4,2,3,5)),
-  Sunset2 = rbind(c('#1d457f', '#61599d', '#be6678', '#e4835c', '#ecb15e'),c(5,1,2,4,3)),
+  Sunset2 = rbind(c('#1d457f', '#61599d', '#c36377', '#eb7f54', '#f2af4a'),c(5,1,2,4,3)),
   Anemone = rbind(c("#009474" ,"#11c2b5" ,"#72e1e1", "#f1f4ee" ,"#efddcf", "#dcbe9b" ,"#b0986c"),c(3, 5, 1 ,7, 2, 6, 4))
 )
 
