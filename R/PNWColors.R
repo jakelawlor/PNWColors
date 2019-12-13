@@ -109,11 +109,6 @@ print.palette <- function(x, ...) {
 
 
 
-pnw_palette("Sunset2",6)
-pnw_palette("Mushroom",100)
-pnw_palette("Spring",8)
-pnw_palette("Anemone",5,type=c("continuous"))
-
 
 
 
