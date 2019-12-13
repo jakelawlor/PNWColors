@@ -34,7 +34,6 @@ pnw_palettes <- list(
   Anemone = rbind(c("#009474" ,"#11c2b5" ,"#72e1e1", "#f1f4ee" ,"#efddcf", "#dcbe9b" ,"#b0986c"),c(3, 5, 1 ,7, 2, 6, 4))
 )
 
-names(pnw_palettes)
 
 # 2. Palette builder function
 #::::::::::::::::::::::::::::::::::::::::::::::
