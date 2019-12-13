@@ -8,7 +8,7 @@ pnw_palette(name, n, type = c("discrete", "continuous"))
 }
 \arguments{
 \item{name}{Name of the color palette. Options are \code{Starfish}, \code{Shuksan}, \code{Bay},
-\code{Winter}, \code{Lake}, \code{Sunset}, \code{Shuksan2}, \code{Cascades}, \code{Sailboat}, \code{Moth}}
+\code{Winter}, \code{Lake}, \code{Sunset}, \code{Shuksan2}, \code{Cascades}, \code{Sailboat}, \code{Moth}, \code{Spring}, \code{Mushroom}, \code{Sunset2}, \code{Anemone}}
 
 \item{n}{Number of colors in the palette. Palletes include 5-8 colors, which can be used discretely,
 or if more are desired, used as a gradient. If omitted, n = length of palette.}

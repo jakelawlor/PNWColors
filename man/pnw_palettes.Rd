@@ -4,11 +4,13 @@
 \name{pnw_palettes}
 \alias{pnw_palettes}
 \title{Complete list of palettes}
-\format{An object of class \code{list} of length 10.}
+\format{An object of class \code{list} of length 14.}
 \usage{
 pnw_palettes
 }
 \description{
-Use \code{\link{pnw_palette}} to construct palettes of desired length.
+Use \code{names(pnw_palettes)} to view list of palette names.
+Currently:  "Starfish" "Shuksan"  "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2"
+"Cascades" "Sailboat" "Moth"     "Spring"   "Mushroom" "Sunset2"  "Anemone"
 }
 \keyword{datasets}

@@ -3,15 +3,18 @@
 # This is a collection of color palettes for Rstudio
 # inspired by colors of nature in and around Washington State, USA.
 #
-# We currently have 10 palettes available, with more on the way.
+# We currently have 14 palettes available, with more on the way.
 #
+
 
 
 # 1.Create the color palettes
 #::::::::::::::::::::::::::::::::::::::::::::::
 #' Complete list of palettes
 #'
-#' Use \code{\link{pnw_palette}} to construct palettes of desired length.
+#' Use \code{names(pnw_palettes)} to view list of palette names.
+#' Currently:  "Starfish" "Shuksan"  "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2"
+#' "Cascades" "Sailboat" "Moth"     "Spring"   "Mushroom" "Sunset2"  "Anemone"
 #'
 #' @export
 pnw_palettes <- list(
@@ -24,8 +27,14 @@ pnw_palettes <- list(
   Shuksan2 = rbind(c('#5d74a5', '#b0cbe7', '#fef7c7', '#eba07e', '#a8554e'),c(2,4,1,5,3)),
   Cascades = rbind(c("#2d4030","#516823","#dec000","#e2e260","#677e8e","#88a2b9"),c(4,1,5,2,6,3)),
   Sailboat = rbind(c('#6e7cb9', '#7bbcd5', '#d0e2af', '#f5db99', '#e89c81', '#d2848d'),c(1,4,6,2,5,3)),
-  Moth = rbind(c('#4a3a3b', '#984136', '#c26a7a', '#ecc0a1', '#f0f0e4'),c(4,1,2,3,5))
+  Moth = rbind(c('#4a3a3b', '#984136', '#c26a7a', '#ecc0a1', '#f0f0e4'),c(4,1,2,3,5)),
+  Spring = rbind(c('#d8aedd', '#bf9bdd', '#cb74ad', '#e69e9c', '#ffc3a3', '#fbe4c6'),c(1,5,2,4,3,6)),
+  Mushroom = rbind(c('#4f412b', '#865a3c', '#ba783e', '#e69c4c', '#fbcc74', '#fffbda'),c(6,1,4,2,3,5)),
+  Sunset2 = rbind(c('#1d457f', '#61599d', '#be6678', '#e4835c', '#ecb15e'),c(5,1,2,4,3)),
+  Anemone = rbind(c("#009474" ,"#11c2b5" ,"#72e1e1", "#f1f4ee" ,"#efddcf", "#dcbe9b" ,"#b0986c"),c(3, 5, 1 ,7, 2, 6, 4))
 )
+
+names(pnw_palettes)
 
 # 2. Palette builder function
 #::::::::::::::::::::::::::::::::::::::::::::::
@@ -37,7 +46,7 @@ pnw_palettes <- list(
 #' View photos for each palette \href{https://github.com/jakelawlor/PNWColors}{On Github}.
 #'
 #' @param name Name of the color palette. Options are \code{Starfish}, \code{Shuksan}, \code{Bay},
-#' \code{Winter}, \code{Lake}, \code{Sunset}, \code{Shuksan2}, \code{Cascades}, \code{Sailboat}, \code{Moth}
+#' \code{Winter}, \code{Lake}, \code{Sunset}, \code{Shuksan2}, \code{Cascades}, \code{Sailboat}, \code{Moth}, \code{Spring}, \code{Mushroom}, \code{Sunset2}, \code{Anemone}
 #' @param n Number of colors in the palette. Palletes include 5-8 colors, which can be used discretely,
 #' or if more are desired, used as a gradient. If omitted, n = length of palette.
 #' @param type Usage of palette as "continuous" or "discrete". Continuous usage interpolates between colors to create
@@ -71,7 +80,7 @@ pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 
 
   if (type == "discrete" && n > length(pal[1,])) {
-    stop("Number of requested colors greater than what palette can offer")
+    stop("Number of requested colors greater than what discrete palette can offer, \n  use as continuous instead.")
   }
 
 
@@ -99,6 +108,12 @@ print.palette <- function(x, ...) {
   text(median(1:n), 1, labels = paste0(attr(x,"name"),", n=",n), cex = 3, family = "sans")
 }
 
+
+
+pnw_palette("Sunset2",6)
+pnw_palette("Mushroom",100)
+pnw_palette("Spring",8)
+pnw_palette("Anemone",5,type=c("continuous"))
 
 
 
