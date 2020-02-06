@@ -221,7 +221,7 @@ countydata %>%
 ### Contact
 Used the palettes in your paper and care to share? (please do!) \
 Love the palettes and want to [share on twitter?](https://twitter.com/Jake_Lawlor1/status/1192175651358330880)  \
-Reach me at <lawlorj@wwu.edu> or 
+Reach me at <jake.lawlor@mail.mcgill.ca> or 
 [@Jake_Lawlor1](https://twitter.com/Jake_Lawlor1) 
 
 ###### This work was supported by NSF grant #1538626
