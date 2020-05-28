@@ -3,7 +3,8 @@
 # This is a collection of color palettes for Rstudio
 # inspired by colors of nature in and around Washington State, USA.
 #
-# We currently have 14 palettes available, with more on the way.
+#
+#
 #
 
 
@@ -101,14 +102,23 @@ pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 #' @importFrom stats median
 print.palette <- function(x, ...) {
   pallength <- length(x)
-  palpars <- par(mar = c(0.5, 0.5, 0.5, 0.5))
-  on.exit(par(palpars))
 
-  image(1:pallength, 1, as.matrix(1:pallength), col = x,
-        ylab = "", xaxt = "n", yaxt = "n", bty = "n")
+  on.exit(par(mar=c(0.25,0.25,0.25,0.25)))
 
-  text(median(1:pallength), 1, labels = paste0(attr(x,"name"),", n=",pallength), cex = 3, family = "sans")
+  image(1:pallength, 1,
+        as.matrix(1:pallength),
+        col = x,
+        ylab = "",
+        xaxt = "n",
+        yaxt = "n",
+        bty = "n")
+
+  text(median(1:pallength), 1,
+       labels = paste0(attr(x,"name"),", n=",pallength),
+       cex = 3, family = "sans")
 }
+
+
 
 
 
