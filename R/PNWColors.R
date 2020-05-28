@@ -51,7 +51,6 @@ pnw_palettes <- list(
 #' @param type Usage of palette as "continuous" or "discrete". Continuous usage interpolates between colors to create
 #' a scale of values. If omitted, function assumes continuous if n > length of palette, and discrete if n < length of palette.
 #'
-#' @return
 #' @export
 #'
 #' @examples
@@ -99,6 +98,7 @@ pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 #::::::::::::::::::::::::::::::::::::::::
 #' @importFrom graphics rect par image text
 #' @importFrom grDevices rgb
+#' @importFrom stats median
 print.palette <- function(x, ...) {
   pallength <- length(x)
   palpars <- par(mar = c(0.5, 0.5, 0.5, 0.5))
@@ -109,10 +109,6 @@ print.palette <- function(x, ...) {
 
   text(median(1:pallength), 1, labels = paste0(attr(x,"name"),", n=",pallength), cex = 3, family = "sans")
 }
-
-
-
-
 
 
 
