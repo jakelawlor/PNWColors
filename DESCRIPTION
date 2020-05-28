@@ -11,8 +11,12 @@ LazyData: true
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 License: MIT + file LICENSE
 RoxygenNote: 7.0.2
+=======
+RoxygenNote: 6.1.1
+>>>>>>> parent of 9a1cb8b... Update contact
 =======
 RoxygenNote: 6.1.1
 >>>>>>> parent of 9a1cb8b... Update contact
