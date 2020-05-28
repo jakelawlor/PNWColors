@@ -10,7 +10,7 @@ pnw_palettes
 }
 \description{
 Use \code{names(pnw_palettes)} to view list of palette names.
-Currently:  "Starfish", "Shuksan",  "Bay",   "Winter",   "Lake",     "Sunset",   "Shuksan2",
-"Cascades", "Sailboat", "Moth",     "Spring",   "Mushroom", "Sunset2", and  "Anemone".
+Currently:  Starfish, Shuksan,  Bay,   Winter,   Lake,     Sunset,   Shuksan2,
+Cascades, Sailboat, Moth,     Spring,   Mushroom, Sunset2, and  Anemone.
 }
 \keyword{datasets}
