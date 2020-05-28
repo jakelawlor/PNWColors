@@ -91,20 +91,23 @@ pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 
 }
 
+#' @export
 
 
 
 # 3. Palette Print Function
 #::::::::::::::::::::::::::::::::::::::::
+#' @importFrom graphics rect par image text
+#' @importFrom grDevices rgb
 print.palette <- function(x, ...) {
-  n <- length(x)
-  old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
-  on.exit(par(old))
+  pallength <- length(x)
+  palpars <- par(mar = c(0.5, 0.5, 0.5, 0.5))
+  on.exit(par(palpars))
 
-  image(1:n, 1, as.matrix(1:n), col = x,
+  image(1:pallength, 1, as.matrix(1:pallength), col = x,
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
 
-  text(median(1:n), 1, labels = paste0(attr(x,"name"),", n=",n), cex = 3, family = "sans")
+  text(median(1:pallength), 1, labels = paste0(attr(x,"name"),", n=",pallength), cex = 3, family = "sans")
 }
 
 
