@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Jake Lawlor
 Maintainer: The package maintainer <JakeALawlor@gmail.com>
 Description: This package contains color palettes for R data visualizations 
-              inspired by nature in the U.S. Pacific Northwest
+              inspired by nature in the U.S. Pacific Northwest.
 Encoding: UTF-8
 LazyData: true
 License: MIT + file LICENSE

@@ -3,7 +3,7 @@
 # This is a collection of color palettes for Rstudio
 # inspired by colors of nature in and around Washington State, USA.
 #
-# We currently have 14 palettes available, with more on the way.
+# Currently includes 14 variable length, colorblind-safe color palettes.
 #
 
 
@@ -13,8 +13,8 @@
 #' Complete list of palettes
 #'
 #' Use \code{names(pnw_palettes)} to view list of palette names.
-#' Currently:  "Starfish" "Shuksan"  "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2"
-#' "Cascades" "Sailboat" "Moth"     "Spring"   "Mushroom" "Sunset2"  "Anemone"
+#' Currently:  "Starfish", "Shuksan",  "Bay",      "Winter",   "Lake",     "Sunset",   "Shuksan2",
+#' "Cascades", "Sailboat", "Moth",     "Spring",   "Mushroom", "Sunset2", and "Anemone"
 #'
 #' @export
 pnw_palettes <- list(
@@ -51,7 +51,6 @@ pnw_palettes <- list(
 #' @param type Usage of palette as "continuous" or "discrete". Continuous usage interpolates between colors to create
 #' a scale of values. If omitted, function assumes continuous if n > length of palette, and discrete if n < length of palette.
 #'
-#' @return
 #' @export
 #'
 #' @examples
@@ -92,23 +91,26 @@ pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 }
 
 
+#' @export
 
 
 # 3. Palette Print Function
 #::::::::::::::::::::::::::::::::::::::::
-print.palette <- function(x, ...) {
-  n <- length(x)
-  old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
-  on.exit(par(old))
 
-  image(1:n, 1, as.matrix(1:n), col = x,
+#' Palette printer
+#' Function to print PNW palettes.
+#' @importFrom graphics rect par image text
+#' @importFrom stats median
+print.palette <- function(x, ...) {
+  pal_n <- length(x)
+  pal_mars <- par(mar = c(0.5, 0.5, 0.5, 0.5))
+  on.exit(par(pal_mars))
+
+  image(1:pal_n, 1, as.matrix(1:pal_n), col = x,
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
 
-  text(median(1:n), 1, labels = paste0(attr(x,"name"),", n=",n), cex = 3, family = "sans")
+  text(median(1:pal_n), 1, labels = paste0(attr(x,"name"),", n=",pal_n), cex = 3, family = "sans")
 }
-
-
-
 
 
 
