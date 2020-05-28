@@ -108,17 +108,12 @@ print.palette <- function(x, ...) {
   image(1:pallength, 1,
         as.matrix(1:pallength),
         col = x,
-        ylab = "",
-        xaxt = "n",
-        yaxt = "n",
-        bty = "n")
+        axes=FALSE)
 
   text(median(1:pallength), 1,
        labels = paste0(attr(x,"name"),", n=",pallength),
        cex = 3, family = "sans")
 }
-
-
 
 
 
