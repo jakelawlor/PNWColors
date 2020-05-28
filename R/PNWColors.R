@@ -14,8 +14,8 @@
 #' Complete list of palettes
 #'
 #' Use \code{names(pnw_palettes)} to view list of palette names.
-#' Currently:  "Starfish" "Shuksan"  "Bay"      "Winter"   "Lake"     "Sunset"   "Shuksan2"
-#' "Cascades" "Sailboat" "Moth"     "Spring"   "Mushroom" "Sunset2"  "Anemone"
+#' Currently:  "Starfish", "Shuksan",  "Bay",   "Winter",   "Lake",     "Sunset",   "Shuksan2",
+#' "Cascades", "Sailboat", "Moth",     "Spring",   "Mushroom", "Sunset2", and  "Anemone".
 #'
 #' @export
 pnw_palettes <- list(
