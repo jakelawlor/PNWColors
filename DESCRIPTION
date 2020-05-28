@@ -3,17 +3,12 @@ Type: Package
 Title: A Pacific Northwest Color Palette Package
 Version: 0.1.0
 Author: Jake Lawlor
-Maintainer: The package maintainer <lawlorj@wwu.edu>
+Maintainer: The package maintainer <JakeALawlor@gmail.com>
 Description: This package contains color palettes for R data visualizations 
               inspired by nature in the U.S. Pacific Northwest.
 Encoding: UTF-8
 LazyData: true
-<<<<<<< HEAD
 License: MIT + file LICENSE
 RoxygenNote: 7.0.2
-=======
-RoxygenNote: 6.1.1
->>>>>>> parent of 9a1cb8b... Update contact
 Suggests: ggplot2
 URL: https://github.com/jakelawlor/PNWColors
-
