@@ -16,6 +16,9 @@ or if more are desired, used as a gradient. If omitted, n = length of palette.}
 \item{type}{Usage of palette as "continuous" or "discrete". Continuous usage interpolates between colors to create
 a scale of values. If omitted, function assumes continuous if n > length of palette, and discrete if n < length of palette.}
 }
+\value{
+
+}
 \description{
 This function builds palettes based on natural scenes in the Pacific Northwest. Each palette is inspired by the author's nature photography
 of the region, and checked for color blind safety using \href{https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1}{Chroma.js Color Palette Helper}.
