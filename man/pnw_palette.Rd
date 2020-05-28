@@ -21,3 +21,9 @@ This function builds palettes based on natural scenes in the Pacific Northwest. 
 of the region, and checked for color blind safety using \href{https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1}{Chroma.js Color Palette Helper}.
 View photos for each palette \href{https://github.com/jakelawlor/PNWColors}{On Github}.
 }
+\examples{
+pnw_palette("Winter",n=100,type="continuous")
+pnw_palette("Bay",3)
+pnw_palette("Starfish",50)
+
+}
