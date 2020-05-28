@@ -91,16 +91,11 @@ pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 }
 
 
-#' @export
 
 
 # 3. Palette Print Function
 #::::::::::::::::::::::::::::::::::::::::
 
-#' Palette printer
-#' Function to print PNW palettes.
-#' @importFrom graphics rect par image text
-#' @importFrom stats median
 print.palette <- function(x, ...) {
   pal_n <- length(x)
   pal_mars <- par(mar = c(0.5, 0.5, 0.5, 0.5))
