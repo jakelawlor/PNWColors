@@ -3,7 +3,7 @@ Type: Package
 Title: A Pacific Northwest Color Palette Package
 Version: 0.1.0
 Author: Jake Lawlor
-Maintainer: The package maintainer <jakealawlor@gmail.com>
+Maintainer: Jake Lawlor <jakealawlor@gmail.com>
 Description: Palettes for R data visualizations inspired by nature
              in the U.S. Pacific Northwest. Variable length and color blind friendly. 
 Encoding: UTF-8
