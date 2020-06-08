@@ -199,7 +199,7 @@ ggplot(ToothGrowth, aes(x=dose, y=len, fill=dose)) +
 
  ```r
 library(tidyverse)
-library(urbanmapr)
+library(urbnmapr)
 pal <- pnw_palette("Winter",100)
 countydata %>%
   left_join(counties, by = "county_fips") %>%
@@ -211,10 +211,8 @@ countydata %>%
   theme(legend.title = element_text(),
         legend.key.width = unit(.5,"in")) +
   labs(fill="Homeownership rate") +
-  theme(axis.text = element_blank(), axis.ticks = element_blank(), 
-        axis.title = element_blank(), panel.grid = element_blank(),
-        axis.line = element_blank(), panel.background = element_blank())
-
+  theme_void()
+  
 ```
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WA.homes.winter.png"></center>
 
