@@ -102,7 +102,7 @@ pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 #::::::::::::::::::::::::::::::::::::::::
 #' @importFrom graphics rect par image text
 #' @importFrom stats median
-print.palette <- function(x, ...) {
+print.PNWpalette <- function(x, ...) {
   pallength <- length(x)
   PNWpar <- par(mar=c(0.25,0.25,0.25,0.25))
   on.exit(par(PNWpar))
