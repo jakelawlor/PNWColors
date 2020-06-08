@@ -90,7 +90,7 @@ pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
                 continuous = grDevices::colorRampPalette(pal[1,])(n),
                 discrete = pal[1,][pal[2,] %in% c(1:n)],
   )
-  structure(out, class = "palette", name = name)
+  structure(out, class = "PNWpalette", name = name)
 
 }
 
