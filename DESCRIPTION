@@ -7,7 +7,7 @@ Maintainer: Jake Lawlor <jakealawlor@gmail.com>
 Description: This package produces PNW-Inspired Palettes for 'R' data visualizations. 
 	Palettes are variable in length and checked for colorblind accessibility 
 	from hue, saturation, and lightness value scaling using the 'Chroma.js 
-	Color Palette Helper': https://gka.github.io/palettes/.
+	Color Palette Helper' <https://gka.github.io/palettes/>.
 Encoding: UTF-8
 LazyData: true
 License: CC0
