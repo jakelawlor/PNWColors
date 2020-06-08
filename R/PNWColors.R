@@ -52,6 +52,7 @@ pnw_palettes <- list(
 #' @param type Usage of palette as "continuous" or "discrete". Continuous usage interpolates between colors to create
 #' a scale of values. If omitted, function assumes continuous if n > length of palette, and discrete if n < length of palette.
 #'
+#' @return A vector of colors.
 #'
 #' @examples
 #' pnw_palette("Winter",n=100,type="continuous")
@@ -101,10 +102,10 @@ pnw_palette <- function(name, n, type = c("discrete", "continuous")) {
 #::::::::::::::::::::::::::::::::::::::::
 #' @importFrom graphics rect par image text
 #' @importFrom stats median
-print.palette <- function(x, ...) {
+print.pnw.palette <- function(x, ...) {
   pallength <- length(x)
-
-  par(mar=c(0.25,0.25,0.25,0.25))
+  PNWpar <- par(mar=c(0.25,0.25,0.25,0.25))
+  on.exit(par(PNWpar))
 
   image(1:pallength, 1,
         as.matrix(1:pallength),
