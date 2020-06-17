@@ -1,14 +1,16 @@
-
-
 <img align="right" src="ReadMeFigures/pnwlogo.png" width=300>
 
 # PNWColors
 
+
+
 Five years spent in the most beautiful place in the world, immortalized in an R color palette package. May the colors of Washington State and the Pacific Northwest live on in our presentation figures forever. 
 
-Palettes are pulled from photos I took in some of the dreamiest, most colorful, PNWiest places I know. The [Pantone Studio iPhone app](https://apps.apple.com/us/app/pantone-studio/id329515634) helped me extract  colors, and 
+Palettes are pulled from photos I took in some of the dreamiest, most colorful, PNW-iest places I know. The [Pantone Studio iPhone app](https://apps.apple.com/us/app/pantone-studio/id329515634) helped me extract  colors, and 
 [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
-helped me adjust values to ensure that all palettes are color-blind safe to be used for attractive and inclusive data viz. Structure of the code was inspired by the [`wesanderson`](https://github.com/karthik/wesanderson) and [`LaCroixColoR`](https://github.com/johannesbjork/LaCroixColoR) packages from GitHub. [See more examples on twitter.](https://twitter.com/Jake_Lawlor1/status/1192175651358330880)
+helped me adjust values to ensure that all palettes are color-blind safe to be used for attractive and inclusive data viz.
+
+Structure of the code was inspired by the [`wesanderson`](https://github.com/karthik/wesanderson) and [`LaCroixColoR`](https://github.com/johannesbjork/LaCroixColoR) packages. [See more examples on twitter.](https://twitter.com/Jake_Lawlor1/status/1192175651358330880)
 
 
 ## Install Package - now on CRAN!
@@ -33,6 +35,7 @@ names(pnw_palettes)
  ```
 
 ## Palettes
+
 
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Starfish.jpg">
 <ul>
@@ -178,12 +181,23 @@ ggplot(data.frame(x = rnorm(1e4), y = rnorm(1e4)), aes(x = x, y = y)) +
 
 
 ```r
-ggplot(data = iris,aes(x=Petal.Length,y=Petal.Width,color=Species))+
-  geom_point(size=2)+
-  scale_color_manual(values=pnw_palette("Spring",3))+
+library(palmerpenguins)
+ggplot(data = penguins, 
+       aes(x = flipper_length_mm,
+           y = body_mass_g)) +
+  geom_point(aes(color = species, 
+                 shape = species),
+             size = 3) +
+  scale_color_manual(values = pnw_palette("Bay",3)) +
+  labs(title = "Penguin size, Palmer Station LTER",
+       subtitle = "Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins",
+       x = "Flipper length (mm)",
+       y = "Body mass (g)",
+       color = "Penguin species",
+       shape = "Penguin species") +
   theme_classic()
 ```
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Spring.Iris.png"></center>
+<img src="ReadMeFigures/baypenguins.png">
 
 
  ```r
