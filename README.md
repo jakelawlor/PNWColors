@@ -1,20 +1,22 @@
-# PNW Color Palette Package for R
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/sunset.jpg" width="300" ></center>
 
-I am soon moving away from the most beautiful place I will ever live, 
-so I did what any nostalgic nature kid / data science nerd would do 
-and immortalized it in an R color palette package. Now I (and you!) can have the colors of Washington State and the 
-Pacific Northwest live on in our presentation figures forever. 
+<img align="right" src="ReadMeFigures/pnwlogo.png" width=300>
 
-All photos were taken by me in places that I love. The [Pantone Studio iPhone app](https://apps.apple.com/us/app/pantone-studio/id329515634) 
-helped me extract  colors, and 
+# PNWColors
+
+Five years spent in the most beautiful place in the world, immortalized in an R color palette package. May the colors of Washington State and the Pacific Northwest live on in our presentation figures forever. 
+
+Palettes are pulled from photos I took in some of the dreamiest, most colorful, PNWiest places I know. The [Pantone Studio iPhone app](https://apps.apple.com/us/app/pantone-studio/id329515634) helped me extract  colors, and 
 [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
 helped me adjust values to ensure that all palettes are color-blind safe to be used for attractive and inclusive data viz. Structure of the code was inspired by the [`wesanderson`](https://github.com/karthik/wesanderson) and [`LaCroixColoR`](https://github.com/johannesbjork/LaCroixColoR) packages from GitHub. [See more examples on twitter.](https://twitter.com/Jake_Lawlor1/status/1192175651358330880)
 
 
-## Install Package
+## Install Package - now on CRAN!
 ```r
+
+install.packages("PNWColors")
+
+# or ye ol' dev version:
 install.packages("devtools") 
 devtools::install_github("jakelawlor/PNWColors") 
 ```
