@@ -2,9 +2,7 @@
 
 # PNWColors
 
-
-
-Five years spent in the most beautiful place in the world, immortalized in an R color palette package. May the colors of Washington State and the Pacific Northwest live on in our presentation figures forever. 
+Four years spent in the most beautiful place in the world, immortalized in an R color palette package. May the colors of Washington State and the Pacific Northwest live on in our presentation figures forever. 
 
 Palettes are pulled from photos I took in some of the dreamiest, most colorful, PNW-iest places I know. The [Pantone Studio iPhone app](https://apps.apple.com/us/app/pantone-studio/id329515634) helped me extract  colors, and 
 [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
@@ -37,79 +35,105 @@ names(pnw_palettes)
 ## Palettes
 
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Starfish.jpg">
-<ul>
-  <li>Low Tide -- San Juan Islands, Washington </li>
+
+
+<img src="ReadMeFigures/WAcolors.Starfish.jpg">
+
+  - Low Tide -- San Juan Islands, Washington 
   
+***
+
+
     
-    
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan.jpg"></center>
+<img src="ReadMeFigures/WAcolors.Shuksan.jpg">
 
-<li>Mount Shuksan from Mount Baker Ski Resort -- North Cascades, Washington</li>
+- Mount Shuksan from Mount Baker Ski Resort -- North Cascades, Washington
 
-
-
-
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Bay.jpg"></center>
-
-
-<li>View from a sunset kayak -- Bellingham Bay, Washington</li>
+***
 
 
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Winter.jpg"></center>
-
-<li>Washington Park snowday -- Anacortes, Washington</li>
+<img src="ReadMeFigures/WAcolors.Bay.jpg">
 
 
+- A nice night for a late-summer sunset paddle -- Bellingham Bay, Washington
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Lake.jpg"></center>
-
-<li>Whistle Lake, the best place in the world -- Anacortes, Washington</li>
-
+***
 
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sunset.jpg"></center>
+<img src="ReadMeFigures/WAcolors.Winter.jpg">
 
-<li>Washington Park sunset -- Anacortes, Washington </li>
+- Seattle Snowpocalypse 2019 -- Anacortes, Washington
 
-
-
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Shuksan2.jpg"></center>
-
-<li>Mount Shuksan, golden hour -- North Cascades, Washington</li>
+***
 
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Cascades.jpg"></center>
+<img src="ReadMeFigures/WAcolors.Lake.jpg">
 
-<li>Watson Lake Trail End -- North Cascades, Washington</li>
+- Best after-work beer spot West of the Mississippi --  Whistle Lake, Anacortes, Washington
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Moth.jpg"></center>
-
-<li>Moth -- Vendovi Island, Washington</li>
-
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sailboat.jpg"></center>
-
-<li>Funky Dory Sailboat -- Anacortes, Washington</li>
+***
 
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Sunset2.jpg"></center>
+<img src="ReadMeFigures/WAcolors.Sunset.jpg">
 
-<li>Oyster Dome Sunset -- Chuckanut, Washington</li>
+- Washington Park sunset -- Anacortes, Washington 
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Spring.jpg"></center>
+***
 
-<li>Cherry Blossoms -- Anacortes, Washington</li>
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Anemone.jpg"></center>
+<img src="ReadMeFigures/WAcolors.Shuksan2.jpg">
 
-<li>Anchor Cove -- Anacortes, Washington</li>
+- Mount Shuksan, golden hour -- North Cascades, Washington 
+***
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WAcolors.Mushroom.jpg"></center>
 
-<li>Mushroom Hunting -- Orcas Island, Washington</li>
+<img src="ReadMeFigures/WAcolors.Cascades.jpg">
 
-</ul>
+- Watson Lake Trail End -- North Cascades, Washington
+
+***
+
+
+<img src="ReadMeFigures/WAcolors.Moth.jpg">
+
+- The most beautiful moth  -- Vendovi Island, Washington
+
+***
+
+<img src="ReadMeFigures/WAcolors.Sailboat.jpg">
+
+- S/V Funky Dory, the maiden voyage -- Anacortes, Washington
+
+***
+
+
+<img src="ReadMeFigures/WAcolors.Sunset2.jpg">
+
+- Oyster Dome Sunset -- Chuckanut, Washington
+
+***
+
+<img src="ReadMeFigures/WAcolors.Spring.jpg">
+
+- Cherry Blossom Season -- Anacortes, Washington
+
+***
+
+
+<img src="ReadMeFigures/WAcolors.Anemone.jpg">
+
+- Fieldtrip -- Anacortes, Washington 
+
+***
+
+
+<img src="ReadMeFigures/WAcolors.Mushroom.jpg">
+
+- Life on a log -- Orcas Island, Washington
+
+***
+
 
 
 ## Building Palettes 
@@ -120,14 +144,14 @@ Use the `pnw_palette()` function to build and view palettes. Inputs are 'name', 
 pnw_palette(name="Starfish",n=7,type="discrete")
 ```
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Starfish.7.png"></center>
+<img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Starfish.7.png">
 
 
 ```r
 pnw_palette("Winter",100)
 ```
 
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Winter.100.png"></center>
+<img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Winter.100.png">
 
 ```r
 pnw_palette("Bay",8,type="continuous")
