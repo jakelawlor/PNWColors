@@ -1,6 +1,5 @@
-# PNWColors
+# PNWColors   <img align="right" src="ReadMeFigures/pnwlogo.png" width=300>
 
-<img align="right" src="ReadMeFigures/pnwlogo.png" width=300>
 
 Four years spent in the most beautiful place in the world, immortalized in an R color palette package. May the colors of Washington State and the Pacific Northwest live on in our presentation figures forever. 
 
