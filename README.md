@@ -14,6 +14,7 @@ Structure of the code was inspired by the [`wesanderson`](https://github.com/kar
 ## Install Package - now on CRAN!
 ```r
 
+# from CRAN
 install.packages("PNWColors")
 
 # or ye ol' dev version:
