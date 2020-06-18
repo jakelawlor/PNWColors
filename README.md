@@ -9,6 +9,7 @@ helped me adjust values to ensure that all palettes are color-blind safe to be u
 
 Structure of the code was inspired by the [`wesanderson`](https://github.com/karthik/wesanderson) and [`LaCroixColoR`](https://github.com/johannesbjork/LaCroixColoR) packages. [See more examples on twitter.](https://twitter.com/Jake_Lawlor1/status/1192175651358330880)
 
+![CRAN Downloads](https://cranlogs.r-pkg.org/badges/grand-total/PNWColors)
 
 ## Install Package - now on CRAN!
 ```r
