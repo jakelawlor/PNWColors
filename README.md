@@ -9,9 +9,21 @@ helped me adjust values to ensure that all palettes are color-blind safe to be u
 
 Structure of the code was inspired by the [`wesanderson`](https://github.com/karthik/wesanderson) and [`LaCroixColoR`](https://github.com/johannesbjork/LaCroixColoR) packages. [See more examples on twitter.](https://twitter.com/Jake_Lawlor1/status/1192175651358330880)
 
+[Installation](#install-package)  
+[Palettes](#palettes)  
+[Functions](#building-palettes)  
+[Examples](#example-plots)  
+[As Seen In](#as-seen-in)  
+[Contact](#contact)  
+
+
+
+
+
 ![CRAN Downloads](https://cranlogs.r-pkg.org/badges/grand-total/PNWColors)
 
-## Install Package - now on CRAN!
+
+## Install Package
 ```r
 
 # from CRAN
@@ -257,9 +269,12 @@ countydata %>%
 ```
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WA.homes.winter.png"></center>
 
+
+### As Seen In:
+Nothing yet, but I'm excited to see them out in the wild -   
+Feel free to share if you use these in a publication or other! 
+
 ### Contact
-Used the palettes in your paper and care to share? (please do!) \
-Love the palettes and [want to share?](https://twitter.com/Jake_Lawlor1/status/1192175651358330880)  \
 Reach me at <jake.lawlor@mail.mcgill.ca> or 
 [@Jake_Lawlor1](https://twitter.com/Jake_Lawlor1) 
 
