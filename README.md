@@ -29,7 +29,7 @@ Structure of the code was inspired by the [`wesanderson`](https://github.com/kar
 # from CRAN
 install.packages("PNWColors")
 
-# or ye ol' dev version:
+# or dev version:
 install.packages("devtools") 
 devtools::install_github("jakelawlor/PNWColors") 
 ```
