@@ -21,6 +21,7 @@ Structure of the code was inspired by the [`wesanderson`](https://github.com/kar
 
 
 ![CRAN Downloads](https://cranlogs.r-pkg.org/badges/grand-total/PNWColors)
+[![DOI](https://zenodo.org/badge/214987774.svg)](https://zenodo.org/badge/latestdoi/214987774)
 
 
 ## Install Package
@@ -277,5 +278,8 @@ Feel free to share if you use these in a publication or other!
 ### Contact
 Reach me at <jake.lawlor@mail.mcgill.ca> or 
 [@Jake_Lawlor1](https://twitter.com/Jake_Lawlor1) 
+
+For Citation Information, see here: [![DOI](https://zenodo.org/badge/214987774.svg)](https://zenodo.org/badge/latestdoi/214987774)
+
 
 ###### This work was supported by NSF grant #1538626
