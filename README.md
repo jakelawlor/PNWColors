@@ -272,8 +272,12 @@ countydata %>%
 
 
 ### As Seen In:
-Nothing yet, but I'm excited to see them out in the wild -   
-Feel free to share if you use these in a publication or other! 
+Did you use `PNWColors` in your publication or other? Please share to grow the list! 
+***
+[Lawlor and Arellano 2020](https://rdcu.be/b6gkb), "Bay" palette <br>
+<img src="ReadMeFigures/LawlorArellano2020.png" width=400>
+
+***
 
 ### Contact
 Reach me at <jake.lawlor@mail.mcgill.ca> or 
