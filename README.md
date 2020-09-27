@@ -5,7 +5,7 @@ Four years spent in the most beautiful place in the world, immortalized in an R 
 
 Palettes are pulled from photos I took in some of the dreamiest, most colorful, PNW-iest places I know. The [Pantone Studio iPhone app](https://apps.apple.com/us/app/pantone-studio/id329515634) helped me extract  colors, and 
 [Chroma.js Color Palette Helper](https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1)
-helped me adjust values to ensure that all palettes are color-blind safe to be used for attractive and inclusive data viz.
+helped me adjust values to ensure that all palettes are <b>color-blind safe</b> to be used for attractive and inclusive data viz.
 
 Structure of the code was inspired by the [`wesanderson`](https://github.com/karthik/wesanderson) and [`LaCroixColoR`](https://github.com/johannesbjork/LaCroixColoR) packages. [See more examples on twitter.](https://twitter.com/Jake_Lawlor1/status/1192175651358330880)
 
