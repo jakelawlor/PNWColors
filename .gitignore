@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 ReadMeFigures/
+*.DS_Store
