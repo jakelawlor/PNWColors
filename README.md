@@ -158,25 +158,25 @@ Use the `pnw_palette()` function to build and view palettes. Inputs are 'name', 
 pnw_palette(name="Starfish",n=7,type="discrete")
 ```
 
-<img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Starfish.7.png">
+<img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Starfish.7.png" width=550>
 
 
 ```r
 pnw_palette("Winter",100)
 ```
 
-<img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Winter.100.png">
+<img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Winter.100.png" width=550>
 
 ```r
 pnw_palette("Bay",8,type="continuous")
 ```
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Bay.8.png"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Bay.8.png" width=550></center>
 
 
 ```r
 pnw_palette("Moth",12)
 ```
-<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Moth.12.png"></center>
+<center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/Moth.12.png" width=550></center>
 
 
 ## Example Plots
@@ -274,8 +274,14 @@ countydata %>%
 ### As Seen In:
 Did you use `PNWColors` in your publication or other? Please share to grow the list! 
 ***
-[Lawlor and Arellano 2020](https://rdcu.be/b6gkb), "Bay" palette <br>
-<img src="ReadMeFigures/LawlorArellano2020.png" width=400>
+[Lawlor and Arellano 2020, Scientific Reports](https://rdcu.be/b6gkb), **Bay** palette <br>
+<img src="ReadMeFigures/LawlorArellano2020.png" width=600>
+
+[Patel et al. 2020, Biogeochemistry](https://link.springer.com/article/10.1007/s10533-020-00711-5), **Sailboat** palette <br>
+<img src="ReadMeFigures/Patel_et_al_2020.png" width=600>
+
+[Nicholas et al. 2020, Journal of Physical Chemistry C](https://pubs.acs.org/doi/10.1021/acs.jpcc.0c07268), **Sunset2** palette <br>
+<img src="ReadMeFigures/nicholas_et_al_2020.png" width=600>
 
 ***
 
