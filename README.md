@@ -271,8 +271,8 @@ countydata %>%
 <center><img src="https://github.com/jakelawlor/PNWColors/blob/master/ReadMeFigures/WA.homes.winter.png"></center>
 
 
-### As Seen In:
-Did you use `PNWColors` in your publication or other? Please share to grow the list! 
+## As Seen In:
+Have you used `PNWColors` in something? Please share to grow the list! 
 ***
 [Lawlor and Arellano 2020, Scientific Reports](https://rdcu.be/b6gkb), **Bay** palette <br>
 <img src="ReadMeFigures/lawlor_arellano_2020.png" width=600>
