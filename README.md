@@ -21,7 +21,7 @@ Structure of the code was inspired by the [`wesanderson`](https://github.com/kar
 
 
 ![CRAN Downloads](https://cranlogs.r-pkg.org/badges/grand-total/PNWColors)
-[![DOI](https://zenodo.org/badge/214987774.svg)](https://zenodo.org/badge/latestdoi/214987774)
+<!-- [![DOI](https://zenodo.org/badge/214987774.svg)](https://zenodo.org/badge/latestdoi/214987774) --->
 
 
 ## Install Package
