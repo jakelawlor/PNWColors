@@ -275,10 +275,10 @@ countydata %>%
 Did you use `PNWColors` in your publication or other? Please share to grow the list! 
 ***
 [Lawlor and Arellano 2020, Scientific Reports](https://rdcu.be/b6gkb), **Bay** palette <br>
-<img src="ReadMeFigures/LawlorArellano2020.png" width=600>
+<img src="ReadMeFigures/lawlor_arellano_2020.png" width=600>
 
 [Patel et al. 2020, Biogeochemistry](https://link.springer.com/article/10.1007/s10533-020-00711-5), **Sailboat** palette <br>
-<img src="ReadMeFigures/Patel_et_al_2020.png" width=600>
+<img src="ReadMeFigures/Patel_et_al_2020.png" width=500>
 
 [Nicholas et al. 2020, Journal of Physical Chemistry C](https://pubs.acs.org/doi/10.1021/acs.jpcc.0c07268), **Sunset2** palette <br>
 <img src="ReadMeFigures/nicholas_et_al_2020.png" width=600>
