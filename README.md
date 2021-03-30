@@ -291,6 +291,6 @@ Reach me at <jake.lawlor@mail.mcgill.ca> or
 
 For Citation Information, see here: [![DOI](https://zenodo.org/badge/214987774.svg)](https://zenodo.org/badge/latestdoi/214987774)
 
-Jake Lawlor. (2020, August 3). jakelawlor/PNWColors: Initial Release (Version 0.1.0). Zenodo. http://doi.org/10.5281/zenodo.3971033
+Jake Lawlor (2020). PNWColors: Color Palettes Inspired by Nature in the US Pacific Northwest. R package version 0.1.0. https://CRAN.R-project.org/package=PNWColors
 
 ###### This work was supported by NSF grant #1538626
