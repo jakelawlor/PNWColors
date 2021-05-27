@@ -84,7 +84,7 @@ names(pnw_palettes)
 
 <img src="ReadMeFigures/WAcolors.Lake.jpg">
 
-- Best after-work beer spot West of the Mississippi --  Whistle Lake, Anacortes, Washington
+- Best after-work sun spot West of the Mississippi --  Whistle Lake, Anacortes, Washington
 
 ***
 
