@@ -282,6 +282,9 @@ Have you used `PNWColors` in something? Please share to grow the list!
 ***
 [Nicholas et al. 2020, Journal of Physical Chemistry C](https://pubs.acs.org/doi/10.1021/acs.jpcc.0c07268), **Sunset2** palette <br>
 <img src="ReadMeFigures/nicholas_et_al_2020.png" width=600>
+***
+[Sobocinski, K.L. (2021). Salish Sea Institute](https://cedar.wwu.edu/salish_pubs/1/), **Starfish** palette <br>
+<img src="ReadMeFigures/SalishSeaReport.png" width=600>
 
 ***
 
