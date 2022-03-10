@@ -285,6 +285,10 @@ Have you used `PNWColors` in something? Please share to grow the list!
 ***
 [Sobocinski, K.L. (2021). Salish Sea Institute](https://cedar.wwu.edu/salish_pubs/1/), **Starfish** palette <br>
 <img src="ReadMeFigures/SalishSeaReport.png" width=600>
+***
+[Linardich et al. (2021). Global Change Biology](https://doi.org/10.1111/gcb.15732), **Bay** palette <br>
+<img src="ReadMeFigures/linardich-et-al-2021.png" width=1000>
+
 
 ***
 
