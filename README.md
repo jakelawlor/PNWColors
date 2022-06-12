@@ -288,10 +288,10 @@ Have you used `PNWColors` in something? Please share to grow the list!
 ***
 [Linardich et al. (2021). Global Change Biology](https://doi.org/10.1111/gcb.15732), **Bay** palette <br>
 <img src="ReadMeFigures/linardich-et-al-2021.png" width=600, height=300>
-
+***
 [Green et al. (2022). Proceedings B.](https://doi.org/10.1098/rspb.2022.0071), **Bay** palette <br>
 <img src="ReadMeFigures/Green-etal-2022.png" width=600, height=300>
-
+***
 
 ***
 
